@@ -1,55 +1,12 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v6.0.2 (https://startbootstrap.com/template-overviews/agency)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #ea4644;
-  --orange: #fd7e14;
-  --yellow: #fed136;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #20c997;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #fed136;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+h1{
+    color: crimson;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h2{
+    color:cadetblue;
 }
 
+<<<<<<< HEAD
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -10999,3 +10956,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-position: center center;
   background-size: cover;
 }
+=======
+>>>>>>> 8698fc5b72dea48a27a47af653396fcf753ee595
