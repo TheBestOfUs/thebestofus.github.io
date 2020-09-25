@@ -10978,7 +10978,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   color: #fff;
   /*background-color: #0a0280;*/
-  background-image: url("../assets/img/novas/teclado.jpg");
+  background-image: url("../assets/img/novas/yasuo_LOL.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10995,9 +10995,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   color: #fff;
   /*background-color: #0a0280;*/
-  background-image: url("../assets/img/novas/teclado.jpg");
+  background-image: url("../assets/img/novas/csgo_edit.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+
+.leftText {
+  text-align: left;
 }
