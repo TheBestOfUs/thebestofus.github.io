@@ -39,7 +39,7 @@
   </head>
   <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"
           ><img
@@ -82,8 +82,9 @@
     <!-- Masthead-->
     <header class="masthead">
       <div class="container">
-        <div class="masthead-subheading">BEM VINDO AO PROJETO</div>
-        <div class="masthead-heading text-uppercase">THE BEST OF US</div>
+        <div class="masthead-heading text-uppercase sign">
+          <span class="sign__word">THE BEST OF US</span>
+        </div>
         <div class="row">
           <div class="col">
             <a
@@ -104,10 +105,10 @@
     </header>
     <!-- divider transition -->
     <div class="text-center" id="transition1">
-      <img src="assets/img/novas/Uninassau_pacman.jpeg" />
+      <img src="assets/img/novas/Uninassau_pacman.jpeg" id="imgTransition" />
     </div>
     <!-- Sobre -->
-    <section class="page-section" id="about">
+    <section class="page-section backgroundLightBlack" id="about">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">PROPOSTA DO PROJETO</h2>
@@ -149,17 +150,22 @@
             coachs, criação e crescimento em serviços de streaming e
             investimentos por meio de equipamentos.
           </h3>
+          <p class="whiteText" id="ps">
+            P.S.:TODO DINHEIRO ARRECADADO VAI EXCLUSIVAMENTE PARA PREMIAÇÃO E
+            DOAÇÕES PARA INSTITUIÇÕES DE CARIDADE. NENHUM DINHEIRO É USADO A PRO
+            DE BENEFICIO PRÓPRIO DOS ORGANIZADORES. THE BEST OF US É UM PROJETO
+            SEM FINS LUCRATIVOS, APENAS COM INTUITO DE AJUDAR QUEM PRECISA E
+            CRIAR UMA COMUNIDADE GAMER COM LAÇOS CONCRETOS NO AMBIENTE
+            UNIVERSITÁRIO.
+          </p>
         </div>
       </div>
     </section>
     <!-- Campeonatos -->
-    <section class="page-section" id="campeonatos">
+    <section class="page-section backgroundYellow" id="campeonatos">
       <div class="container" id="campeonatos">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Campeonatos</h2>
-          <h3 class="section-subheading text-muted">
-            Lorem ipsum dolor sit amet consectetur.
-          </h3>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
@@ -169,7 +175,9 @@
               alt=""
             />
             <h4 class="my-3">League of Legends</h4>
-            <p class="text-muted">descrição rapida</p>
+            <p class="blackText">
+              Campeonato 5x5 em Summoner's Rift com premiações.
+            </p>
           </div>
           <div class="col-md-4">
             <img
@@ -177,8 +185,10 @@
               src="assets/img/novas/CSGO.jpeg"
               alt=""
             />
-            <h4 class="my-3">Counter Strike: Go</h4>
-            <p class="text-muted">descrição rapida</p>
+            <h4 class="my-3">CS:GO</h4>
+            <p class="blackText">
+              Campeonatos no modo competitivo com premiações.
+            </p>
           </div>
           <div class="col-md-4">
             <img
@@ -187,10 +197,10 @@
               alt=""
             />
             <h4 class="my-3">Mais a caminho!</h4>
-            <p class="text-muted">
+            <p class="blackText">
               Não fique triste seu jogo preferido não está na lista. Estamos
               sempre tentando expandir. Para dúvidas e sugestões, visitar a
-              seção de contato :D
+              seção de contato :D.
             </p>
           </div>
         </div>
@@ -204,12 +214,12 @@
           <div class="col">
             <div class="text-center">
               <h2 class="section-heading text-uppercase">Campeonato de lol</h2>
-              <h3 class="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur. descriçao lol
+              <h3 class="section-subheading">
+                Venha se tornar a melhor equipe de LOL do TBOU.
               </h3>
               <a
                 class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="#"
+                href="https://battlefy.com/users/the-best-of-us-br"
                 >Inscreva-se!</a
               >
             </div>
@@ -224,8 +234,8 @@
           <div class="col">
             <div class="text-center">
               <h2 class="section-heading text-uppercase">Campeonato de cs</h2>
-              <h3 class="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur. descriçao cs
+              <h3 class="section-subheading">
+                Mostre que você e sua equipe são bons de bala.
               </h3>
               <a
                 class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
@@ -238,8 +248,101 @@
         </div>
       </div>
     </section>
+    <!-- Patrocínios-->
+    <div class="text-center backgroundYellow fitScreen">
+      <h2 class="section-heading text-uppercase paddingTop">Apoio</h2>
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#!"
+                ><img
+                  class="img-fluid d-block mx-auto"
+                  src="assets/img/novas/Uninassau.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-2">
+              <a href="#!"
+                ><img
+                  class="img-fluid d-block mx-auto"
+                  src="assets/img/novas/kogateam.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact-->
+    <section class="page-section backgroundLightBlack" id="contact">
+      <div class="container backgroundBlack" id="contactText">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase py-5" id="contact">
+            Contatos
+          </h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="section-heading text-uppercase py-5" id="contact">
+                Comunidade
+              </h2>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://discord.gg/9KGh2Yz"
+                ><i class="fab fa-discord"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://t.me/thebestofus_community"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://chat.whatsapp.com/FqxitIyhWQD0yWpgKv5f8M"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/TheBestOfUs_Br"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.youtube.com/channel/UCrylQTW6t76YGmRQ1HO0TjA"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.twitch.tv/TheBestOfUs_Br"
+                ><i class="fab fa-twitch"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.instagram.com/thebestofus_br/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <div class="col-md-6">
+              <h2 class="section-heading text-uppercase py-5" id="contact">
+                Avisos
+              </h2>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://t.me/thebestofus_br"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://chat.whatsapp.com/Kmrrystywwz8dkrvFwdqhu"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Team-->
-    <section class="page-section bg-light" id="team">
+    <section class="page-section backgroundYellow" id="team">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Conheça nossa equipe</h2>
@@ -247,113 +350,100 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="team-member">
-              <h4>XXXXXXX</h4>
-              <p class="text-muted">XXXXXXX</p>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-linkedin-in"></i
+              <h4>Affonso Henrick</h4>
+              <p class="blackText">Coordenador</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.instagram.com/affonso_henrick/?hl=pt-br"
+                ><i class="fab fa-instagram"></i
               ></a>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="team-member">
-              <h4>XXXXXXX</h4>
-              <p class="text-muted">XXXXXXX</p>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
+              <h4>Breno Marques</h4>
+              <p class="blackText">Apoiador</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/breno_aqt"
                 ><i class="fab fa-twitter"></i
               ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-linkedin-in"></i
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.instagram.com/o.bmq/?hl=pt-br"
+                ><i class="fab fa-instagram"></i
               ></a>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="team-member">
-              <h4>XXXXXXX</h4>
-              <p class="text-muted">XXXXXXX</p>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
+              <h4>Pedro Henrique</h4>
+              <p class="blackText">Coordenador</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/lost_j3di"
                 ><i class="fab fa-twitter"></i
               ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-dark btn-social mx-2" href="#!"
-                ><i class="fab fa-linkedin-in"></i
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.instagram.com/lost_j3di/?hl=pt-br"
+                ><i class="fab fa-instagram"></i
               ></a>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">
-              DESCRIÇÃO DA EQUIPE MULTIDISCIPLINAR AQUI
-            </p>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <h4>Thiago Vasconcelos</h4>
+              <p class="blackText">Coordenador</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/maitotico"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Patrocínios-->
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">Apoio</h2>
-    </div>
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="assets/img/novas/Uninassau.png"
-                alt=""
-            /></a>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <h4>Vitor Santos</h4>
+              <p class="blackText">Coordenador</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.instagram.com/santosfvitor28/?hl=pt-br "
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
           </div>
-          <div class="col-md-3 col-sm-6 my-2">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="assets/img/novas/kogateam.png"
-                alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Contatos</h2>
-          <h3 class="section-subheading text-muted">
-            Sugestões, dúvidas, ofertas, ou
-          </h3>
         </div>
       </div>
     </section>
     <!-- Footer-->
-    <footer class="footer py-4">
+    <footer class="footer py-4 backgroundLightBlack">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-left">
-            <a href="kogateam.github.io">Copyright © KogaTeam 2020</a>
+            <p class="whiteText">Copyright © KogaTeam 2020</p>
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
             <a class="btn btn-dark btn-social mx-2" href="#!"
+              ><i class="fas fa-envelope"></i>
+            </a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://twitter.com/KogaTeam"
               ><i class="fab fa-twitter"></i
             ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
-              ><i class="fab fa-instagram"></i
-            ></a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://discord.gg/jsDUGXT"
+              ><i class="fab fa-discord"></i>
+            </a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://github.com/kogateam"
+              ><i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
       </div>
