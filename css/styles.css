@@ -11011,11 +11011,29 @@ section#contact .section-heading {
   padding: 0;
 }
 
+.iconBlackColor {
+  color: black;
+}
+
+.iconBlackColor:hover {
+  color: white;
+}
+
+.resize:hover {
+  transition: 0.3s;
+  transform: scale(1.3);
+}
+
 @media (max-width: 666px) {
   html,
   body {
     margin: 0;
     width: 100vw;
     overflow-x: hidden !important;
+  }
+
+  .btn-primary {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
