@@ -183,7 +183,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
+  color: #ffcd54;
   text-decoration: underline;
 }
 
@@ -2650,13 +2650,13 @@ fieldset:disabled a.btn {
   border-color: white;
 }
 .btn-primary:hover {
-  color: #fff;
+  color: #111111;
   background-color: #fec810;
   border-color: #fec503;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #fff;
+  color: #111111;
   background-color: #fec810;
   border-color: #fec503;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
@@ -11005,6 +11005,10 @@ section#contact .section-heading {
 
 #ps {
   font-size: 10px;
+}
+
+.img-thumbnail {
+  padding: 0;
 }
 
 @media (max-width: 666px) {
