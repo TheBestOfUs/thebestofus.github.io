@@ -11069,6 +11069,7 @@ section#contact .section-heading {
   transform: translate3d(0px, 0px, 0px);
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -11082,18 +11083,40 @@ p {
   color: #a6a6a6;
 }
 
-#textInFront {
+.textInFront {
   position: absolute;
-  top: 40%;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   align-items: center;
 }
 
+header.masthead {
+  display: block;
+  overflow: hidden;
+  margin-top: 3em;
+  padding: 0;
+}
+
 .video-fluid {
-  position: relative;
+  overflow: hidden;
   width: 100%;
+}
+
+.videoInFront {
+  position: absolute;
+  top: 18%;
+  bottom: 10%;
+  right: 0;
+  left: 0;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+#newLogo {
+  width: 20vw;
 }
 
 ::-webkit-scrollbar {
