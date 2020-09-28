@@ -81,17 +81,16 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-      <div class="container">
-        <div class="masthead-heading text-uppercase sign">
-          <span class="sign__word">THE BEST OF US</span>
-        </div>
-        <div class="row">
-          <div class="col">
-            <a
-              class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="#campeonatos"
-              >Inscreva-se!</a
-            >
+      <div class="container">    
+        <video class="video-fluid" autoplay loop muted>
+          <source src="assets/img/novas/video.mp4" type="video/mp4"/>
+        </video>
+        <div id="textInFront">
+          <img src="./assets/img/novas/Pacman_logo_no background.png" alt="">
+          <div class="row">
+            <div class="col">
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#campeonatos">Inscreva-se!</a>
+            </div>
           </div>
         </div>
       </div>
@@ -105,7 +104,7 @@
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase whiteText">PROPOSTA</h2>
-          <h3 class="section-subheading text-justify text-muted">
+          <h3 class="section-subheading text-justify subheadingColor">
             Promover campeonatos de E-Sports no campus. Inicialmente, dos jogos League of Legends e Counter Strike:
             Global Offensive, dois dos mais jogados mundialmente. A princípio, o torneio será aberto apenas aos alunos
             dos cursos de graduação e pós-graduação da Uninassau. O público alvo é o grupo de alunos que não participam
@@ -119,14 +118,14 @@
           <div class="row">
             <div class="col">
               <h2 class="section-heading text-uppercase whiteText">OBJETIVOS</h2>
-              <h3 class="section-subheading text-justify text-muted">
+              <h3 class="section-subheading text-justify subheadingColor">
                 Atrair alunos às atividades realizadas pela universidade; Apoiar institutos carentes; Gerar um espaço
                 confortável que promove criação de laços sociais por meio do entretenimento dos E-Sports.
               </h3>
             </div>
             <div class="col offset-2">
               <h2 class="section-heading text-uppercase whiteText">PÚBLICO ALVO</h2>
-              <h3 class="section-subheading text-justify text-muted">
+              <h3 class="section-subheading text-justify subheadingColor">
                 As inscrições serão abertas para todo o público universitário da Uninassau.
               </h3>
             </div>
@@ -139,9 +138,8 @@
               <hr/>
             </div>
           </div>
-
           <h2 class="section-heading text-uppercase whiteText">BENEFÍCIOS</h2>
-          <h3 class="section-subheading text-justify text-muted">
+          <h3 class="section-subheading text-justify subheadingColor">
             O evento buscará ter grande relevância aos alunos que, por qualquer motivo, não se adaptaram das atividades
             existentes, ou simplesmente não costumam participar.
 
@@ -154,7 +152,7 @@
           </h3>
           <hr/>
           <h2 class="section-heading text-uppercase whiteText">OPORTUNIDADES</h2>
-          <h3 class="section-subheading text-justify text-muted">
+          <h3 class="section-subheading text-justify subheadingColor">
             Com o avanço do projeto, espera-se despertar o interesse de patrocinadores e criar oportunidades para os
             estudantes que mostram bom desempenho durante os campeonatos, como: Participação em times profissionais;
             Coachs; Criação e crescimento em serviços de streaming e investimentos por meio de equipamentos.
@@ -171,22 +169,26 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <img
-              class="img-thumbnail"
-              src="assets/img/novas/lol_moderno.jpeg"
+            <a class="js-scroll-trigger" href="#campeonatoLol">
+              <img 
+              class="img-thumbnail resize" 
+              src="assets/img/novas/lol_moderno.jpeg" 
               alt=""
-            />
+              />
+            </a>
             <h4 class="my-3">League of Legends</h4>
             <p class="blackText">
               Campeonatos 5x5 em Summoner's Rift com premiações.
             </p>
           </div>
           <div class="col-md-4">
-            <img
-              class="img-thumbnail"
-              src="assets/img/novas/CSGO.jpeg"
-              alt=""
-            />
+            <a class="js-scroll-trigger" href="#campeonatoCs">
+              <img 
+              class="img-thumbnail resize" 
+              src="../assets/img/novas/CSGO.jpeg" 
+              alt="" 
+              />
+            </a>
             <h4 class="my-3">CS:GO</h4>
             <p class="blackText">
               Campeonatos no modo competitivo com premiações.
@@ -194,8 +196,8 @@
           </div>
           <div class="col-md-4">
             <img
-              class="img-thumbnail"
-              src="assets/img/novas/game_over_continue.png"
+              class="img-thumbnail resize"
+              src="assets/img/novas/game_over_continue.jpeg"
               alt=""
             />
             <h4 class="my-3">Mais a caminho!</h4>
@@ -256,17 +258,19 @@
       <div class="py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 my-3 d-inline-block ">
-              <a href="#!"
+            <div class="col-md-12 my-3 d-inline-block ">
+              <a target="_blank" href="https://www.uninassau.edu.br/"
                 ><img
-                  class="img-fluid mx-auto"
+                  class="img-fluid mx-3"
                   src="assets/img/novas/Uninassau.png"
                   alt=""
               /></a>
-              <a href="#!">
-                <img class="img-fluid mx-auto my-2" src="assets/img/novas/kogateam.png" alt="" />
+              <a class="js-scroll-trigger" href="#footer">
+                <img class="img-fluid mx-3 my-2" src="assets/img/novas/kogateam.png" alt="" />
               </a>
+              <a href="#!"><img class="img-fluid mx-3" src="assets/img/novas/Departamento_Uninassau.png" alt="" /></a>
+              <a href="#!"><img class="img-fluid mx-3" src="assets/img/novas/Ladsoft.png" alt="" /></a>
+              <a href="#!"><img class="img-fluid mx-3" src="assets/img/novas/Laftec.png" alt="" /></a>
             </div>
           </div>
         </div>
@@ -283,31 +287,31 @@
             <h2 class="section-heading text-uppercase py-5" id="contact">
               Comunidade
             </h2>
-            <a
+            <a target="_blank" 
               href="https://discord.gg/9KGh2Yz"
               ><i class="fab fa-discord fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://t.me/thebestofus_community"
               ><i class="fab fa-telegram fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://chat.whatsapp.com/FqxitIyhWQD0yWpgKv5f8M"
               ><i class="fab fa-whatsapp fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://twitter.com/TheBestOfUs_Br"
               ><i class="fab fa-twitter fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://www.youtube.com/channel/UCrylQTW6t76YGmRQ1HO0TjA"
               ><i class="fab fa-youtube fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://www.twitch.tv/TheBestOfUs_Br"
               ><i class="fab fa-twitch fa-3x mx-3 my-2 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://www.instagram.com/thebestofus_br/"
               ><i class="fab fa-instagram fa-3x mx-3 my-2 resize"></i
             ></a>
@@ -316,11 +320,11 @@
             <h2 class="section-heading text-uppercase py-5" id="contact">
               Avisos
             </h2>
-            <a
+            <a target="_blank" 
               href="https://t.me/thebestofus_br"
               ><i class="fab fa-telegram fa-3x mx-3 resize"></i
             ></a>
-            <a
+            <a target="_blank" 
               href="https://chat.whatsapp.com/Kmrrystywwz8dkrvFwdqhu"
               ><i class="fab fa-whatsapp fa-3x mx-3 resize"></i
             ></a>
@@ -332,14 +336,14 @@
     <section class="page-section backgroundYellow" id="team">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Conheça nossa equipe</h2>
+          <h2 class="section-heading text-uppercase">Staff</h2>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="team-member">
               <h4>Affonso Henrick</h4>
               <p class="blackText">Coordenador</p>
-              <a class="whiteHover"
+              <a target="_blank" class="whiteHover"
                 href="https://www.instagram.com/affonso_henrick/?hl=pt-br"
                 ><i class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
@@ -348,12 +352,12 @@
           <div class="col-lg-4">
             <div class="team-member">
               <h4>Breno Marques</h4>
-              <p class="blackText">Apoiador</p>
-              <a class="whiteHover"
+              <p class="blackText">Staff</p>
+              <a target="_blank"  class="whiteHover"
                 href="https://twitter.com/breno_aqt"
                 ><i class="fab fa-twitter fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
-              <a class="whiteHover"
+              <a target="_blank" class="whiteHover"
                 href="https://www.instagram.com/o.bmq/?hl=pt-br"
                 ><i class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
@@ -363,11 +367,11 @@
             <div class="team-member">
               <h4>Pedro Henrique</h4>
               <p class="blackText">Coordenador</p>
-              <a class="whiteHover"
+              <a target="_blank"  class="whiteHover"
                 href="https://twitter.com/lost_j3di"
                 ><i class="fab fa-twitter fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
-              <a class="whiteHover"
+              <a target="_blank" class="whiteHover"
                 href="https://www.instagram.com/lost_j3di/?hl=pt-br"
                 ><i class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
@@ -379,7 +383,7 @@
             <div class="team-member">
               <h4>Thiago Vasconcelos</h4>
               <p class="blackText">Coordenador</p>
-              <a class="whiteHover"
+              <a target="_blank" class="whiteHover"
                 href="https://twitter.com/maitotico"
                 ><i class="fab fa-twitter fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
@@ -389,17 +393,40 @@
             <div class="team-member">
               <h4>Vitor Santos</h4>
               <p class="blackText">Coordenador</p>
-              <a class="whiteHover"
+              <a target="_blank" class="whiteHover"
                 href="https://www.instagram.com/santosfvitor28/?hl=pt-br"
                 ><i class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i
               ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <h4>Breno Roberto</h4>
+              <p class="blackText">Staff</p>
+              <a target="_blank" class="whiteHover" href="https://twitter.com/brobert30"><i
+                  class="fab fa-twitter fa-3x mx-3 my-2 iconBlackColor resize"></i></a>
+              <a target="_blank" class="whiteHover" href="https://www.instagram.com/brenor30/"><i
+                  class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <h4>Danrlley Santos</h4>
+              <p class="blackText">Coordenador</p>
+              <a target="_blank" class="whiteHover" href="https://twitter.com/bleydsantos"><i
+                  class="fab fa-twitter fa-3x mx-3 my-2 iconBlackColor resize"></i></a>
+              <a target="_blank" class="whiteHover" href="https://www.instagram.com/danrlleysantos"><i
+                  class="fab fa-instagram fa-3x mx-3 my-2 iconBlackColor resize"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer-->
-    <footer class="footer py-4 backgroundLightBlack">
+    <footer class="footer py-4 backgroundLightBlack" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-4"></div>
@@ -410,12 +437,12 @@
         <div class="row">
           <div class="col-lg-4"></div>
           <div class="col-lg-4 my-2">
-            <a href="mailto:kogateam1@gmail.com"><i class="fas fa-envelope fa-3x mx-3 my-2 resize"></i>
+            <a target="_blank" href="mailto:kogateam1@gmail.com"><i class="fas fa-envelope fa-3x mx-3 my-2 resize"></i>
             </a>
-            <a href="https://twitter.com/KogaTeam"><i class="fab fa-twitter fa-3x mx-3 my-2 resize"></i></a>
-            <a href="https://discord.gg/jsDUGXT"><i class="fab fa-discord fa-3x mx-3 my-2 resize"></i>
+            <a target="_blank" href="https://twitter.com/KogaTeam"><i class="fab fa-twitter fa-3x mx-3 my-2 resize"></i></a>
+            <a target="_blank" href="https://discord.gg/jsDUGXT"><i class="fab fa-discord fa-3x mx-3 my-2 resize"></i>
             </a>
-            <a href="https://github.com/kogateam"><i class="fab fa-github fa-3x mx-3 my-2 resize"></i>
+            <a target="_blank" href="https://github.com/kogateam"><i class="fab fa-github fa-3x mx-3 my-2 resize"></i>
             </a>
           </div>
         </div>

@@ -80,4 +80,18 @@
       }
     });
   }
+
+  //change image to gif on hover
+  $(".img-thumbnail").hover(
+    function () {
+      $(this).attr("src", function (index, attr) {
+        return attr.replace(".jpeg", ".gif");
+      });
+    },
+    function () {
+      $(this).attr("src", function (index, attr) {
+        return attr.replace(".gif", ".jpeg");
+      });
+    }
+  );
 })(jQuery); // End of use strict
