@@ -94,4 +94,13 @@
       });
     }
   );
+
+  var image1 = new Image();
+  image1.src = "../assets/img/novas/lol_moderno.gif";
+
+  var image = new Image();
+  image.src = "../assets/img/novas/CSGO.gif";
+
+  var image2 = new Image();
+  image2.src = "../assets/img/novas/game_over_continue.gif";
 })(jQuery); // End of use strict
