@@ -80,7 +80,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffcd54;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10894,6 +10894,10 @@ section#contact .section-heading {
   color: #fff;
 }
 
+header.masthead {
+  height: 100vh;
+}
+
 .footer {
   text-align: center;
   font-size: 0.9rem;
@@ -11080,39 +11084,7 @@ p {
 }
 
 .subheadingColor {
-  color: #a6a6a6;
-}
-
-.textInFront {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  align-items: center;
-}
-
-header.masthead {
-  display: block;
-  overflow: hidden;
-  margin-top: 3em;
-  padding: 0;
-}
-
-.video-fluid {
-  overflow: hidden;
-  width: 100%;
-}
-
-.videoInFront {
-  position: absolute;
-  top: 18%;
-  bottom: 10%;
-  right: 0;
-  left: 0;
-  align-items: center;
-  width: 80%;
-  height: 100%;
+  color: #e7d5d5;
 }
 
 #newLogo {
