@@ -10544,7 +10544,6 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    /*background-color: #212529;*/
     background-color: #ffcd54;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10562,8 +10561,6 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   /*background-color: #0a0280;*/
@@ -10951,7 +10948,7 @@ header.masthead {
 }
 
 /*-- Sign Styles --*/
-.sign {
+/*.sign {
   min-height: 100%;
   display: -webkit-box;
   display: flex;
@@ -10969,7 +10966,7 @@ header.masthead {
   text-shadow: 0 0 5px rgb(122, 122, 122), 0 0 10px rgb(122, 122, 122),
     0 0 20px rgb(122, 122, 122), 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff,
     0 0 100px #0ff, 0 0 150px #0ff;
-}
+}*/
 
 .backgroundBlack {
   background-color: #000000;
@@ -10998,10 +10995,6 @@ header.masthead {
 #contactText {
   padding-top: 1em;
   padding-bottom: 4.5em;
-}
-
-#ps {
-  font-size: 10px;
 }
 
 .img-thumbnail {
@@ -11088,7 +11081,7 @@ p {
 }
 
 #newLogo {
-  width: 20vw;
+  width: 35vw;
 }
 
 ::-webkit-scrollbar {
