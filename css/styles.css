@@ -11164,4 +11164,7 @@ p {
   .patrocinio {
     margin: 0 2rem;
   }
+  #newLogo {
+    width: 50vh;
+  }
 }
