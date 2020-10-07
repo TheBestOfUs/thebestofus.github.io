@@ -10562,6 +10562,8 @@ img::-moz-selection {
 }
 header.masthead {
   text-align: center;
+  padding-top: 13rem;
+  padding-bottom: 12.5rem;
   color: #fff;
   /*background-color: #0a0280;*/
   background-image: url("../assets/img/novas/teclado.jpg");
@@ -10590,10 +10592,10 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
+  /*header.masthead {
+    padding-top: 13rem;
     padding-bottom: 12.5rem;
-  }
+  }*/
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
@@ -11084,6 +11086,38 @@ p {
   width: 35vw;
 }
 
+#textLogo {
+  width: 40vw;
+}
+
+.carousel-text-fix-subheading {
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-bottom: 1em;
+  font-size: 1.85vw;
+  line-height: 1.35;
+}
+
+.carousel-text-fix-heading {
+  font-size: 3.5vw;
+  line-height: 1.35;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: block;
+  margin-top: 36vh;
+}
+.carousel-indicators {
+  position: absolute;
+  top: 78vh;
+  margin: 0 auto;
+}
+
+#about {
+  height: 100vh;
+}
+
 ::-webkit-scrollbar {
   background-color: #1b1b1b;
   width: 12px;
@@ -11117,5 +11151,17 @@ p {
 
   #mobileTextFix {
     transform: translate(-20px, 0);
+  }
+
+  .carousel-text-fix-subheading {
+    font-size: 3vw;
+  }
+
+  .carousel-text-fix-heading {
+    font-size: 4vw;
+  }
+
+  .patrocinio {
+    margin: 0 2rem;
   }
 }
