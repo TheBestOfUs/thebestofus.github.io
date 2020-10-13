@@ -81,6 +81,39 @@
     });
   }
 
+ 
+
+  var deadLine = "October 18 2020 23:59:59 GMT-0300";
+  updateDate();
+  setInterval(updateDate, 1000);
+  function updateDate() {
+    const total = Date.parse(deadLine) - Date.parse(new Date());
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor((total / 1000 / 60) % 60);
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+    let countdown = days;
+    if (days < 10) countdown = "0" + countdown;
+    countdown = countdown + ":";
+    if (hours < 10) countdown = countdown + "0";
+    countdown = countdown + hours;
+    countdown = countdown + ":";
+    if (minutes < 10) countdown = countdown + "0";
+    countdown = countdown + minutes;
+    countdown = countdown + ":";
+    if (seconds < 10) countdown = countdown + "0";
+    countdown = countdown + seconds;
+    $("#Time").text(countdown);
+    
+    if(total <= 0)
+    {
+      clearInterval(updateDate)
+      $("#Time").text("00:00:00:00");
+    }
+  }
+
+
   //change image to gif on hover
   $(".img-thumbnail").hover(
     function () {
