@@ -83,7 +83,7 @@
 
  
 
-  var deadLine = "October 18 2020 23:59:59 GMT-0300";
+  var deadLine = "November 13 2020 23:59:59 GMT-0300";
   updateDate();
   setInterval(updateDate, 1000);
   function updateDate() {
